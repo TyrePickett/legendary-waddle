@@ -18,10 +18,10 @@ const games = [
     author: "Macey Jones"
     },
     {
-title: "EchoGame",
-link: "https://brandoncoplen.github.io/EchoLab1/",
-author: "Brandon Coplen"
-},
+  title: "EchoGame",
+  link: "https://brandoncoplen.github.io/EchoLab1/",
+  author: "Brandon Coplen"
+  },
 {
   title: "NameGame",
   link: "https://nkerstiens.github.io/Echo-Lab-376/",
@@ -46,7 +46,7 @@ $.each(games, function (index, item) {
 
   // create a brand new HTML element JUST with code
 
-var el = `<div class='card text-center mx-auto bg-dark blue' style="width: 200px"> \
+var el = `<div class='card text-center bg-dark blue card-item' style="width: 200px"> \
   <button class='cardOpen2 btn btn-outline-info'> ${ item.title } </button> \
    <div class='cardHide'> \
        <br> \
@@ -60,7 +60,7 @@ var el = `<div class='card text-center mx-auto bg-dark blue' style="width: 200px
  console.log(el); 
 
 
-$('#firstCard').append(el);
+$('#card-list').append(el);
 
 $('.nav-dropdown').append($(`<li><a href="#!"> ${item.author} </a></li>`));
 

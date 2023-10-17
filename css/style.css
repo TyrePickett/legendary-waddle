@@ -119,6 +119,13 @@ nav ul li ul li a {
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
+#card-list{
+  display: flex;
+
+}
+.card-item{
+  margin-right:100px;
+}
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
