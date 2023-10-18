@@ -36,6 +36,35 @@ const games = [
       title: "namePage",
       link: "https://2fortdev.github.io/Echo-lab/",
       author: "Sam Aaron"
+      },
+  {
+      title: "namePage",
+      link: "https://2fortdev.github.io/Echo-lab/",
+      author: "Sam Aaron"
+      },    {
+      title: "namePage",
+      link: "https://2fortdev.github.io/Echo-lab/",
+      author: "Sam Aaron"
+      },    {
+      title: "namePage",
+      link: "https://2fortdev.github.io/Echo-lab/",
+      author: "Sam Aaron"
+      },    {
+      title: "namePage",
+      link: "https://2fortdev.github.io/Echo-lab/",
+      author: "Sam Aaron"
+      },    {
+      title: "namePage",
+      link: "https://2fortdev.github.io/Echo-lab/",
+      author: "Sam Aaron"
+      },    {
+      title: "namePage",
+      link: "https://2fortdev.github.io/Echo-lab/",
+      author: "Sam Aaron"
+      },    {
+      title: "namePage",
+      link: "https://2fortdev.github.io/Echo-lab/",
+      author: "Sam Aaron"
       }
 ];
 // iterate over the JSON array

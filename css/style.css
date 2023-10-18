@@ -120,11 +120,15 @@ nav ul li ul li a {
   padding: 10px 35px 16px 0px;
 }
 #card-list{
-  display: flex;
-
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 .card-item{
-  margin-right:100px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  display: grid;
 }
 #nav-toggle span,
 #nav-toggle span:before,
